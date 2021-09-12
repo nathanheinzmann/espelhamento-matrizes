@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 #define MATIRX_SIZE 35
-#define DEBUG "YES"
+#define DEBUG "NO"
 
 void printMatrix(char matrix[MATIRX_SIZE][MATIRX_SIZE])
 {
