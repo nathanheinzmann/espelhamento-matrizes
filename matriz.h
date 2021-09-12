@@ -11,7 +11,7 @@ void getVerticalMatrix()
   readScilabMatrixFile(matrix);
 
   FILE *pont_arq;
-  pont_arq = fopen("nathan_vertical.txt", "w");
+  pont_arq = fopen("gabriel_vertical.txt", "w");
 
   int i, j;
 
@@ -37,7 +37,7 @@ void getHorizontalMatrix()
   readScilabMatrixFile(matrix);
 
   FILE *pont_arq;
-  pont_arq = fopen("nathan_horizontal.txt", "w");
+  pont_arq = fopen("gabriel_horizontal.txt", "w");
 
   int i, j;
 
