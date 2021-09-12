@@ -42,7 +42,6 @@ void readScilabMatrixFile(char matrix[MATIRX_SIZE][MATIRX_SIZE])
         if (buff[j] == '1' || buff[j] == '0')
         {
           matrix[matrixLineIterator][matrixColumnIterator] = buff[j];
-          printf("%d columns\n", matrixColumnIterator);
           matrixColumnIterator++;
         }
       }
